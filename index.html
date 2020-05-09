@@ -1,0 +1,76 @@
+<html>
+<head>
+<!--FONT-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<!--STYLESHEET-->
+	<link id="stylesheet" type="text/css" rel="stylesheet" href="css/stylesheet-default.css"/>
+<!--FONTAWESOME-->
+	<script src="https://kit.fontawesome.com/c028653152.js" crossorigin="anonymous"></script>
+<!--FAVICON-->
+<link rel="shortcut icon" href="img\favicon\favicon.ico" />
+<!--TITLE-->
+<title>New Tab</title>
+<!--NIGHT MODE-->
+<script>
+	function nightMode(){
+		var stylesheet = document.getElementById("stylesheet");
+		var label = document.getElementById("darkLabel");
+		//var logo = document.getElementById("bannerImage");
+		if(stylesheet.getAttribute("href") == "css/stylesheet-default.css"){
+			stylesheet.setAttribute("href", "css/stylesheet-nocturnal.css");
+			label.innerHTML = "Light Mode";
+			//logo.setAttribute("src", "discord-Logo-White.png");
+		}
+		else{
+			stylesheet.setAttribute("href", "css/stylesheet-default.css");
+			label.innerHTML = "Dark Mode";
+			//logo.setAttribute("src", "discord-Logo-Color.png");
+		}
+	}
+</script>
+</head>
+<body>
+	<h1 class="pageHeader">Welcome to Internet<br><div style="width: 340px;" class="horizontalLine"></div></h1>
+	<div class="dashWrapper">
+		<table class="dashboard">
+			<tr class="dashboard">
+			<td class="dashboard"><a title="Youtube" href="http://www.youtube.com" target="_blank"><div class="dashButton youtube"><i class="fab fa-youtube"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Roblox" href="http://www.roblox.com" target="_blank"><div class="dashButton roblox"><i class="fas fa-square"></i><i class="fas fa-square roblox-background-element" style="font-size:10px;"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Reddit" href="http://www.reddit.com" target="_blank"><div class="dashButton reddit"><i class="fab fa-reddit"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Steam" href="http://store.steampowered.com" target="_blank"><div class="dashButton steam"><i class="fab fa-steam-square"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Twitch" href="http://www.twitch.tv" target="_blank"><div class="dashButton twitch"><i class="fab fa-twitch"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Battle.net" href="http://battle.net/" target="_blank"><div class="dashButton battlenet"><i class="fab fa-battle-net"></i></div></a></td class="dashboard">
+
+			</tr>
+			<tr class="dashboard">
+			<td class="dashboard"><a title="StockX" href="http://www.stockx.com" target="_blank"><div class="dashButton stockx"></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Amazon" href="http://www.amazon.co.uk" target="_blank"><div class="dashButton amazon"><i class="fab fa-amazon"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="eBay" href="http://www.ebay.co.uk" target="_blank"><div class="dashButton ebay"><i class="fab fa-ebay"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Google Drive" href="http://drive.google.com" target="_blank"><div class="dashButton drive"><i class="fab fa-google-drive"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Google" href="http://www.google.com" target="_blank"><div class="dashButton google"><i class="fab fa-google"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Gmail" href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><div class="dashButton gmail"><i class="fas fa-envelope"></i></div></a></td class="dashboard">
+			</tr>
+			<tr class="dashboard">
+			<td class="dashboard"><a title="Facebook" href="http://www.facebook.com" target="_blank"><div class="dashButton facebook"><i class="fab fa-facebook-square"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Xbox" href="http://www.xbox.com" target="_blank"><div class="dashButton xbox"><i class="fab fa-xbox"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="PeopleStuff" href="https://www.peoplestuffuk.com/WFMMCDPRD/Login.jsp" target="_blank"><div class="dashButton peoplestuff"><i class="fas fa-address-book"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Pornhub" href="http://www.pornhub.com" target="_blank"><div class="dashButton pornhub"><i class="fas fa-parking"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Eating fruit loops out of Roxy Raye's gaping booty hole" href="https://m.fapality.com/1415/" target="_blank"><div class="dashButton frootloop"><i class="fas fa-grin-beam-sweat"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Blank" href="#"><div class="dashButton"></div></a></td class="dashboard">
+			</tr>
+		</table>
+	</div>
+	<div class="dashWrapper" style="margin: 30px auto;">
+		<table class="dashboard">
+		<tr class="dashboard">
+			<td class="dashboard"><a title="Admin Panel" href="http://192.168.1.1" target="_blank"><div class="dashButton internet"><i class="fas fa-wifi"></i></div></a></td class="dashboard">
+			<td class="dashboard"><a title="Speedtest by Ookla" href="http://www.speedtest.net" target="_blank"><div class="dashButton speedtest"><i class="fas fa-tachometer-alt"></i></div></a></td class="dashboard">
+		</tr>
+		</table>
+	</div>
+	<div class="button" onClick = "nightMode()">
+		<div id="darkLabel" class="label">Dark Mode
+		</div>
+	</div>
+</body>
+</html>

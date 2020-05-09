@@ -1,0 +1,270 @@
+body{
+	background-color: 	#181C25;
+}
+
+.pageHeader{
+	font-family: 		'Open Sans', sans-serif;
+	font-weight:		bold;
+	font-size:			35px;
+	line-height: 		50px;
+	text-align: center;
+	margin:				10px auto;
+	color: 				#FFFFFF;
+	user-select:		none;
+}
+
+.horizontalLine{
+	height: 3px;
+	width: 35%;
+	margin: auto;
+	background-image: 	linear-gradient(to right, #008AE5, #00E48B);
+}
+
+.wrapper{
+	width: 				35%;
+	height: 			auto;
+	background-color: 	#12151C;
+	border: 			2px solid 	#0D1015;
+	border-radius: 		10px;
+	margin: 			auto;
+}
+
+ul{
+	list-style: 		none;
+	padding:			0px;
+	margin:				10px;
+}
+
+.liWrap{
+	height: 			30px;
+	width: 				98%;
+	margin: 			10px auto;
+	background-color:	#181C25;
+	border-radius:		5px;
+	padding: 			5px;
+}
+
+.liWrap:hover{
+	background-image: 	linear-gradient(to right, #008AE5, #00E48B);
+	cursor:				pointer;
+}
+
+.liWrap:hover  li:before{
+	visibility:			hidden;
+}
+
+.bodyText{
+	font-family:		'Open Sans', sans-serif;
+	font-size: 			20px;
+	line-height: 		30px;
+	color:				#FFFFFF;
+}
+
+.bodyText li:before{
+	display:			inline-block;
+	content:			'';
+	background-image: 	linear-gradient(to right, #008AE5, #00E48B);
+	height: 			10px;
+	width: 				10px;
+	border-radius: 		100%;
+	line-height:		30px;
+	margin-right:		5px;
+	margin-bottom:		2px;
+}
+
+a{
+	text-decoration: 	none;
+	color: 				#FFFFFF;
+	user-select:		none;
+}
+
+a:visited{
+	color:				#FFFFFF;
+}
+
+/*
+Dashboard Table Content
+*/
+
+.dashWrapper{
+	width:				fit-content;
+	height: 			auto;
+	background-color: 	#12151C;
+	border: 			2px solid 	#0D1015;
+	border-radius: 		10px;
+	margin: 			auto;
+	
+}
+
+table.dashboard{
+	table-layout:		fixed;
+	margin:				auto;
+	padding:			5px;
+}
+
+tr.dashboard{
+	width: 				100%;
+}
+
+td.dashboard{
+	height:				130px;
+	width: 				120px;
+}
+
+.dashButton{
+	height: 			120px;
+	width: 				120px;
+	margin: 			5px;
+	background-color:	#181C25;
+	color:				#12151C;
+	border-radius:		5px;
+}
+
+.dashButton:hover{
+	cursor:				pointer;
+	color:				#FFFFFF;
+}
+
+.dashButton i{
+	font-size: 			60px;
+	line-height:		120px;
+	width: 				120px;
+	text-align: 		center;
+}
+
+.roblox-background-element{
+	margin-top:			-120px;
+	color: 				#181C25;
+	transform: 			rotate(45deg);
+}
+
+.roblox i{
+	transform:			rotate(45deg);
+	font-size:			50px;
+}
+
+.stockx{
+	background-image: url("../img/icon/stockXB.png");
+	background-size: contain;
+}
+
+.stockx:hover{
+	background-image: url("../img/icon/stockXW.png");
+	background-color: #43AB49;
+}
+
+/*
+COLORS
+*/
+
+.youtube:hover{
+	background-color:	#FF0000;
+}
+
+.reddit:hover{
+	background-color:	#FF4500;
+}
+
+.roblox:hover{
+	background-color:	#0074BD;
+}
+
+.roblox:hover .roblox-background-element{
+	color:				#0074BD;
+}
+
+.facebook:hover{
+	background-color:	#4267B2;
+}
+
+.steam:hover{
+	background-color:	#1B2838;
+}
+
+.google:hover{
+	background-color:	#4285F4;
+}
+
+.amazon:hover{
+	background-color:	#FF9900;
+}
+
+.drive:hover{
+	background-color:	#0F9D58;
+}
+
+.settings:hover{
+	background-color:	#2850A7;
+}
+
+.ebay:hover{
+	background-color:	#E43137;
+}
+
+.xbox:hover{
+	background-color:	#107C10;
+}
+
+.battlenet:hover{
+	background-color:	#00AEFF;
+}
+
+.peoplestuff:hover{
+	background-color:	#464B4E;
+}
+
+.twitch:hover{
+	background-color:	#772CC8;
+}
+
+.gmail:hover{
+	background-color: 	#BF4338;
+}
+
+.pornhub:hover{
+	background-image: 	linear-gradient(to right, #1B1B1B, #1B1B1B 95%, #FF9900 95%);
+}
+
+.frootloop:hover{
+	background:url("https://i.pinimg.com/originals/01/66/90/0166903ace0b556744c29d15745c1d5e.jpg");
+	background-size: 100%;
+}
+
+.internet:hover{
+	background:url("../img/background/technicolor-dark.png");
+	background-size: 100%;
+}
+
+.speedtest:hover{
+	background-image: linear-gradient(to bottom,#2de5d1,#1fa4e9);
+}
+
+/*
+DARK MODE BUTTON
+*/
+.button{
+	width: 				125px;
+	height: 			30px;
+	line-height: 		30px;
+	right:				0px;
+	bottom:				0px;
+	border: 			1px solid #0D1015;
+	background-color: 	#12151C;
+	border-radius:		10px 0px 0px 0px;
+	text-align:			center;
+	position:			fixed;
+}
+
+.button:hover{
+	cursor:				pointer;
+	background-color: 	#181C25;
+}
+
+.button .label{
+	font-family: 		'Open Sans', sans-serif;
+	font-weight:		bold;
+	font-size:			12px;
+	line-height: 		30px;
+	color: 				#FFFFFF;
+	user-select:		none;
+}
