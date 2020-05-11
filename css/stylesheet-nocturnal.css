@@ -93,7 +93,7 @@ Dashboard Table Content
 	border: 			2px solid 	#0D1015;
 	border-radius: 		10px;
 	margin: 			auto;
-	
+
 }
 
 table.dashboard{
@@ -221,14 +221,6 @@ COLORS
 	background-color: 	#BF4338;
 }
 
-.pornhub:hover{
-	background-image: 	linear-gradient(to right, #1B1B1B, #1B1B1B 95%, #FF9900 95%);
-}
-
-.frootloop:hover{
-	background:url("https://i.pinimg.com/originals/01/66/90/0166903ace0b556744c29d15745c1d5e.jpg");
-	background-size: 100%;
-}
 
 .internet:hover{
 	background:url("../img/background/technicolor-dark.png");
