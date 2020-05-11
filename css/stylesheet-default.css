@@ -230,11 +230,6 @@ COLORS
 	background-color: 	#BF4338;
 }
 
-.internet:hover{
-	background:url("../img/background/technicolor-light.png");
-	background-size: 100%;
-}
-
 .speedtest:hover{
 	background-image: linear-gradient(to bottom,#2de5d1,#1fa4e9);
 }
