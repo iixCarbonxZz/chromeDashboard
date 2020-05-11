@@ -245,7 +245,7 @@ DARK MODE BUTTON
 	bottom:				0px;
 	border: 			1px solid #DFDFDF;
 	background-color: 	#DFDFDF;
-	border-radius:		10px 0px 0px 0px;
+	border-radius:		5px 0px 0px 0px;
 	text-align:			center;
 	position:			fixed;
 }
