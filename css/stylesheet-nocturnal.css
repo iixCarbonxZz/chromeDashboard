@@ -153,6 +153,16 @@ td.dashboard{
 	background-color: #43AB49;
 }
 
+.netflix{
+	background-image:url("../img/icon/netflixB.png");
+	background-size: contain;
+}
+
+.netflix:hover{
+	background-image:url("../img/icon/netflixW.png");
+	background-color: #E50914;
+}
+
 /*
 COLORS
 */
