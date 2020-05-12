@@ -231,6 +231,10 @@ COLORS
 	background-image: linear-gradient(to bottom,#2de5d1,#1fa4e9);
 }
 
+.github:hover{
+	background-color: #24292E;
+}
+
 /*
 DARK MODE BUTTON
 */
