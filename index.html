@@ -11,24 +11,7 @@
 <!--TITLE-->
 <title>New Tab</title>
 <!--NIGHT MODE-->
-<script>
-	//Nightmode button logic.
-	function nightMode(){
-		var stylesheet = document.getElementById("stylesheet");
-		var label = document.getElementById("darkLabel");
-		//var logo = document.getElementById("bannerImage");
-		if(stylesheet.getAttribute("href") == "css/stylesheet-default.css"){
-			stylesheet.setAttribute("href", "css/stylesheet-nocturnal.css");
-			label.innerHTML = "Light Mode";
-			//logo.setAttribute("src", "discord-Logo-White.png");
-		}
-		else{
-			stylesheet.setAttribute("href", "css/stylesheet-default.css");
-			label.innerHTML = "Dark Mode";
-			//logo.setAttribute("src", "discord-Logo-Color.png");
-		}
-	}
-</script>
+<script src="mjs/dark.js"></script>
 </head>
 <body class="color-primary">
 	<h1 class="pageHeader">Welcome to Internet<br><div style="width: 340px;" class="horizontalLine"></div></h1>
