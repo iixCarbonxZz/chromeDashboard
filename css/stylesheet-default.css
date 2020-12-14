@@ -1,5 +1,9 @@
-body{
-	background-color: #fafbfc;
+.color-primary{
+	background-color: #FAFBFC;
+}
+
+.color-secondary{
+background-color: #DFDFDF;
 }
 
 .pageHeader{
@@ -89,7 +93,6 @@ Dashboard Table Content
 .dashWrapper{
 	width:				fit-content;
 	height: 			auto;
-	background-color: 	#DFDFDF;
 	border: 			2px solid #DFDFDF;
 	border-radius: 		10px;
 	margin: 			auto;
@@ -115,7 +118,6 @@ td.dashboard{
 	height: 			120px;
 	width: 				120px;
 	margin: 			5px;
-	background-color:	#FFFFFF;
 	border-radius:		5px;
 }
 
