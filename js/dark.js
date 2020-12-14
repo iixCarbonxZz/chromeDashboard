@@ -1,4 +1,6 @@
 //Nightmode button logic.
+document.getElementById("stylesheet").addEventListener("load", checkMode());
+
 function checkMode(){
   var mode = localStorage.getItem("mode");
   if(mode != ""){
