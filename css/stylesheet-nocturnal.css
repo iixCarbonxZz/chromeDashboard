@@ -163,6 +163,17 @@ td.dashboard{
 	background-color: #E50914;
 }
 
+.crunchyroll{
+	background-image: url("../img/icon/crunchB.png");
+	background-size: contain;
+}
+
+.crunchyroll:hover{
+	background-image: url("../img/icon/crunchW.png");
+	background-color: #E59400;
+	/*background-color: #fc9003; - this is what crunchyroll's hover colour was but like its too similar to amazon's and that bugs me
+	on a physical level sorry *shrugs* */
+}
 /*
 COLORS
 */

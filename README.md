@@ -27,5 +27,6 @@ In the future when I have a bit more spare time I intend to add more space and c
 * Xbox
 * Netflix
 * Speedtest by Ookla
+* Crunchyroll
 
 Makes use of the [FontAwesome](http://www.fontawesome.com) icon library.
