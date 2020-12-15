@@ -13,6 +13,9 @@ function checkMode(){
       label.innerHTML = "Light Mode";
     }
   }
+  else{
+      label.innerHTML = "Dark Mode";
+  }
 }
 
 function nightMode(){
