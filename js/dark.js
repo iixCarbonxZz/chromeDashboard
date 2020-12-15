@@ -3,6 +3,7 @@ document.getElementById("stylesheet").addEventListener("load", checkMode());
 
 function checkMode(){
   var mode = localStorage.getItem("mode");
+  var label = document.getElementById("darkLabel");
   if(mode != ""){
     if(mode == "Light"){
       stylesheet.setAttribute("href", "css/stylesheet-default.css");
@@ -14,7 +15,7 @@ function checkMode(){
     }
   }
   else{
-      label.innerHTML = "Dark Mode";
+    label.innerHTML = "Dark Mode";
   }
 }
 
