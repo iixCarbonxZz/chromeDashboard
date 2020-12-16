@@ -240,7 +240,7 @@ COLORS
 }
 
 .speedtest:hover{
-	background-image: linear-gradient(to bottom,#2de5d1,#1fa4e9);
+	background-color: #1CBFFF;
 }
 
 .github:hover{

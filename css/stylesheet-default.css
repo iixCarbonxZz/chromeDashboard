@@ -118,6 +118,7 @@ td.dashboard{
 	width: 				120px;
 	margin: 			5px;
 	border-radius:		5px;
+	transition: background-color 0.25s, color 0.25s;
 }
 
 .dashButton:hover{
@@ -140,6 +141,7 @@ td.dashboard{
 	margin-top:			-120px;
 	color: 				#FFFFFF !Important;
 	transform: 			rotate(45deg);
+	transition: color 0.25s;
 }
 
 .roblox i{
@@ -244,7 +246,7 @@ COLORS
 }
 
 .speedtest:hover{
-	background-color: #1cbfff;
+	background-color: #1CBFFF;
 }
 
 .github:hover{
