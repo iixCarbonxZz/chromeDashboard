@@ -32,28 +32,27 @@ function checkMode(){
 function nightMode(){
   var stylesheet = document.getElementById("stylesheet");
   var label = document.getElementById("darkLabel");
+  var buttonList = document.getElementsByClassName("dashButton");
   //var logo = document.getElementById("bannerImage");
   if(stylesheet.getAttribute("href") == "css/stylesheet-default.css"){
-    var buttonList = document.getElementsByClassName("dashButton");
     for (var i = 0; i < buttonList.length(); i++){
-        buttonList[i].style.transition = "background-color 0s, color 0s, background-image 0s";
+        buttonList.item(i).style.transition = "background-color 0s, color 0s, background-image 0s";
     }
     stylesheet.setAttribute("href", "css/stylesheet-nocturnal.css");
     for (var i = 0; i < buttonList.length(); i++){
-        buttonList[i].removeAttribute("style");
+        buttonList.item(i).removeAttribute("style");
     }
     label.innerHTML = "Light Mode";
     localStorage.setItem("mode", "Dark");
     //logo.setAttribute("src", "discord-Logo-White.png");
   }
   else{
-    var buttonList = document.getElementsByClassName("dashButton");
     for (var i = 0; i < buttonList.length(); i++){
-        buttonList[i].style.transition = "background-color 0s, color 0s, background-image 0s";
+        buttonList.item(i).style.transition = "background-color 0s, color 0s, background-image 0s";
     }
     stylesheet.setAttribute("href", "css/stylesheet-default.css");
     for (var i = 0; i < buttonList.length(); i++){
-        buttonList[i].removeAttribute("style");
+        buttonList.item(i).removeAttribute("style");
     }
     label.innerHTML = "Dark Mode";
     localStorage.setItem("mode", "Light");
