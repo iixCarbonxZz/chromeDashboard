@@ -99,7 +99,7 @@ Dashboard Table Content
 	border: 			2px solid #DFDFDF;
 	border-radius: 		10px;
 	margin: 			auto;
-
+	transition: background-color 0.25s, border 0.25s;
 }
 
 table.dashboard{
