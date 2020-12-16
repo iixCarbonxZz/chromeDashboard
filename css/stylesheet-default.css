@@ -6,6 +6,10 @@
 background-color: #DFDFDF;
 }
 
+body{
+	transition: background-color 0.25s;
+}
+
 .pageHeader{
 	font-family: 		'Open Sans', sans-serif;
 	font-weight:		bold;

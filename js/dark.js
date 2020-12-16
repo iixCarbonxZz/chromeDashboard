@@ -32,28 +32,15 @@ function checkMode(){
 function nightMode(){
   var stylesheet = document.getElementById("stylesheet");
   var label = document.getElementById("darkLabel");
-  var buttonList = document.getElementsByClassName("dashButton");
   //var logo = document.getElementById("bannerImage");
   if(stylesheet.getAttribute("href") == "css/stylesheet-default.css"){
-    for (var i = 0; i < buttonList.length; i++){
-        buttonList.item(i).style.transition = "background-color 0s, color 0s, background-image 0s";
-    }
     stylesheet.setAttribute("href", "css/stylesheet-nocturnal.css");
-    for (var i = 0; i < buttonList.length; i++){
-        buttonList.item(i).removeAttribute("style");
-    }
     label.innerHTML = "Light Mode";
     localStorage.setItem("mode", "Dark");
     //logo.setAttribute("src", "discord-Logo-White.png");
   }
   else{
-    for (var i = 0; i < buttonList.length; i++){
-        buttonList.item(i).style.transition = "background-color 0s, color 0s, background-image 0s";
-    }
     stylesheet.setAttribute("href", "css/stylesheet-default.css");
-    for (var i = 0; i < buttonList.length; i++){
-        buttonList.item(i).removeAttribute("style");
-    }
     label.innerHTML = "Dark Mode";
     localStorage.setItem("mode", "Light");
     //logo.setAttribute("src", "discord-Logo-Color.png");
