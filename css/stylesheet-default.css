@@ -118,7 +118,7 @@ td.dashboard{
 	width: 				120px;
 	margin: 			5px;
 	border-radius:		5px;
-	transition: background-color 0.25s, color 0.25s background-image 0.25s;
+	transition: background-color 0.25s, color 0.25s, background-image 0.25s;
 }
 
 .dashButton:hover{
