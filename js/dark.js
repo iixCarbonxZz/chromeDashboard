@@ -32,9 +32,9 @@ function checkMode(){
 function nightMode(){
   var stylesheet = document.getElementById("stylesheet");
   var label = document.getElementById("darkLabel");
-  var buttonList = document.getElementsByClassName("dashButton");
   //var logo = document.getElementById("bannerImage");
   if(stylesheet.getAttribute("href") == "css/stylesheet-default.css"){
+    var buttonList = document.getElementsByClassName("dashButton");
     for (var i = 0; i < buttonList.length(); i++){
         buttonList[i].style.transition = "background-color 0s, color 0s, background-image 0s";
     }
@@ -47,6 +47,7 @@ function nightMode(){
     //logo.setAttribute("src", "discord-Logo-White.png");
   }
   else{
+    var buttonList = document.getElementsByClassName("dashButton");
     for (var i = 0; i < buttonList.length(); i++){
         buttonList[i].style.transition = "background-color 0s, color 0s, background-image 0s";
     }
