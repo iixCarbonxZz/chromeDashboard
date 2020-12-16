@@ -34,13 +34,17 @@ function nightMode(){
   var label = document.getElementById("darkLabel");
   //var logo = document.getElementById("bannerImage");
   if(stylesheet.getAttribute("href") == "css/stylesheet-default.css"){
+    document.getElementsByClassName("dashButton").style.transition = "background-color 0s, color 0s, background-image 0s";
     stylesheet.setAttribute("href", "css/stylesheet-nocturnal.css");
+    document.getElementsByClassName("dashButton").removeAttribute("style");
     label.innerHTML = "Light Mode";
     localStorage.setItem("mode", "Dark");
     //logo.setAttribute("src", "discord-Logo-White.png");
   }
   else{
+    document.getElementsByClassName("dashButton").style.transition = "background-color 0s, color 0s, background-image 0s";
     stylesheet.setAttribute("href", "css/stylesheet-default.css");
+    document.getElementsByClassName("dashButton").removeAttribute("style");
     label.innerHTML = "Dark Mode";
     localStorage.setItem("mode", "Light");
     //logo.setAttribute("src", "discord-Logo-Color.png");
