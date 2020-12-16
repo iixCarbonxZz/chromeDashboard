@@ -24,6 +24,7 @@ function checkMode(){
   }
   //If no mode is defined default to the light stylesheet and label the button dark.
   else{
+    stylesheet.setAttribute("href", "css/stylesheet-default.css");
     label.innerHTML = "Dark Mode";
   }
 }
