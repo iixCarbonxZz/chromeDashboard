@@ -1,5 +1,5 @@
 #loadOverlay{
-	display: none;
-	background-color: rgba(34, 34, 34, 0);
-	transition: display 0.5s, background-color 0.5s;
+	visibility: none;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s;
 }
