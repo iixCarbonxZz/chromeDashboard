@@ -1,4 +1,4 @@
 #loadOverlay{
-	display:none;
+	display: hidden;
 	transition: display 1s;
 }
