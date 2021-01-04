@@ -6,6 +6,7 @@
 	<link id="stylesheet" type="text/css" rel="stylesheet" href="css/stylesheet-default.css"/>
 <!--NIGHT MODE-->
 	<script 			src="js/checkMode.js"></script>
+	<script defer src="js/Rows.js"></script>
 	<script defer src="js/setMode.js"></script>
 <!--FONTAWESOME-->
 	<script src="https://kit.fontawesome.com/c028653152.js" crossorigin="anonymous"></script>
@@ -18,7 +19,7 @@
 <body class="color-primary">
 	<h1 class="pageHeader">Welcome to Internet<br><div style="width: 340px;" class="horizontalLine"></div></h1>
 	<div class="dashWrapper color-secondary">
-		<table class="dashboard">
+		<table class="dashboard" id="tableMain">
 			<tr class="dashboard">
 			<td class="dashboard"><a title="Youtube" href="http://www.youtube.com" target="_blank"><div class="dashButton color-primary youtube"><i class="fab fa-youtube"></i></div></a></td class="dashboard">
 			<td class="dashboard"><a title="Roblox" href="http://www.roblox.com" target="_blank"><div class="dashButton color-primary roblox"><i class="fas fa-square"></i><i class="fas fa-square roblox-background-element" style="font-size:10px;"></i></div></a></td class="dashboard">
@@ -45,6 +46,16 @@
 			<td class="dashboard"><a title="Crunchyroll" href="http://www.crunchyroll.com" target="_blank"><div class="dashButton color-primary crunchyroll"></div></a></td class="dashboard">
 			</tr>
 		</table>
+	</div>
+	<div class="addRow" onClick = "newRow()">
+		<div class="label">
+			Add Row
+		</div>
+	</div>
+	<div class="deleteRow" onClick="removeRow()">
+		<div class="label">
+			Remove Row
+		</div>
 	</div>
 	<div class="button" onClick = "nightMode()">
 		<div id="darkLabel" class="label"></div>

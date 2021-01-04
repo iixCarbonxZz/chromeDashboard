@@ -253,6 +253,68 @@ COLORS
 	background-color: #24292E;
 }
 
+
+/*
+ADD ROW button
+*/
+.addRow{
+	width: 				125px;
+	height: 			30px;
+	line-height: 		30px;
+	right:				130px;
+	bottom:				0px;
+	border: 			1px solid #0D1015;
+	background-color: 	#12151C;
+	border-radius:		5px 5px 0px 0px;
+	text-align:			center;
+	position:			fixed;
+}
+
+.addRow:hover{
+	cursor:				pointer;
+	background-color: 	#181C25;
+}
+
+.addRow .label{
+	font-family: 		'Open Sans', sans-serif;
+	font-weight:		bold;
+	font-size:			12px;
+	line-height: 		30px;
+	color: 				#FFFFFF;
+	user-select:		none;
+}
+
+/*
+REMOVE ROW button
+*/
+.deleteRow{
+	width: 				125px;
+	height: 			30px;
+	line-height: 		30px;
+	right:				260px;
+	bottom:				0px;
+	border: 			1px solid #0D1015;
+	background-color: 	#12151C;
+	border-radius:		5px 5px 0px 0px;
+	text-align:			center;
+	position:			fixed;
+}
+
+.deleteRow:hover{
+	cursor:				pointer;
+	background-color: 	#181C25;
+}
+
+.deleteRow .label{
+	font-family: 		'Open Sans', sans-serif;
+	font-weight:		bold;
+	font-size:			12px;
+	line-height: 		30px;
+	color: 				#FFFFFF;
+	user-select:		none;
+}
+
+
 /*
 DARK MODE BUTTON
 */
