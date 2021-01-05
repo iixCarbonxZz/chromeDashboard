@@ -265,6 +265,7 @@ ADD ROW button
 .addRow{
 	right:				130px;
 	bottom:				0px;
+	border-radius:	5px 5px 0px 0px;
 }
 
 /*
@@ -273,6 +274,7 @@ REMOVE ROW button
 .deleteRow{
 	right:				260px;
 	bottom:				0px;
+		border-radius:	5px 5px 0px 0px;
 }
 
 /*
@@ -281,6 +283,7 @@ DARK MODE BUTTON
 .DMbutton{
 	right:				0px;
 	bottom:				0px;
+	border-radius:	5px 0px 0px 0px;
 }
 
 /*
@@ -292,7 +295,6 @@ GENERAL BUTTON CSS
 	line-height: 		30px;
 	border: 			1px solid #DFDFDF;
 	background-color: 	#DFDFDF;
-	border-radius:		5px 0px 0px 0px;
 	text-align:			center;
 	position:			fixed;
 }
