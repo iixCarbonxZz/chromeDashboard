@@ -1,5 +1,5 @@
 ///Event Listener to check the currently selected theme.
-document.getElementById("stylesheet").addEventListener("load", checkMode, false);
+document.getElementById("stylesheet").addEventListener("load", checkMode(), false);
 
 //Function to check the currently selected theme.
 function checkMode(){
