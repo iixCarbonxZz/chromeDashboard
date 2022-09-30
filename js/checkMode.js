@@ -3,7 +3,7 @@ document.getElementById("stylesheet").addEventListener("load", checkMode(), fals
 
 //Function to check the currently selected theme.
 function checkMode(){
-  //get mdoe variable from sites localStorage.
+  //get mode variable from sites localStorage.
   var mode = localStorage.getItem("mode");
   //Get dark mode button.
   var label = document.getElementById("darkLabel");
@@ -25,4 +25,8 @@ function checkMode(){
     stylesheet.setAttribute("href", "css/stylesheet-default.css");
     label.innerHTML = "Dark Mode";
   }
+  window.addEventListener("DOMContentLoaded", function(){
+    document.body.style.visibility = "visible";
+    document.body.style.opacity = 1;
+  });
 }
