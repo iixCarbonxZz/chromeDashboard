@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){
   var button = document.querySelectorAll(".dashButton");
   var buttonLogo = document.querySelectorAll(".dashButton > .fab");
 
-  button.addEventListener("mouseover", function(e){
+  button.addEventListener("mouseenter", function(e){
       buttonLogo.classList.add("fa-beat-fade");
   });
 });
