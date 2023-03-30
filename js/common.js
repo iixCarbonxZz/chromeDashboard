@@ -13,14 +13,4 @@ document.addEventListener("DOMContentLoaded", function(){
         buttonLogo[i].classList.remove("fa-beat-fade");
         });
     };
-    for(let i=0; i< roblox.length; i++){
-      roblox[i].addEventListener("mouseenter", function(e){
-      roblox[i].classList.add("fa-rotate-by");
-      roblox[i].style.cssText += "--fa-rotate-angle: 45deg;";
-      });
-      roblox[i].addEventListener("mouseleave", function(e){
-      roblox[i].classList.add("fa-rotate-by");
-      roblox[i].style.cssText += "--fa-rotate-angle: 45deg;";
-      });
-    };
 });

@@ -141,12 +141,10 @@ td.dashboard{
 .roblox-background-element{
 	margin-top:			-120px;
 	color: 				#181C25;
-	transform: 			rotate(45deg);
 	transition: color 0.25s;
 }
 
 .roblox i{
-	transform:			rotate(45deg);
 	font-size:			50px;
 }
 
