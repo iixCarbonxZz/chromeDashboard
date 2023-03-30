@@ -257,6 +257,14 @@ COLORS
 	background-color: #24292E;
 }
 
+.spotify:hover{
+	background-color: #1ed760;
+}
+
+.soundcloud:hover{
+	background-color: #ff5500;
+}
+
 
 
 /*
