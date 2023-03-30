@@ -153,22 +153,22 @@ td.dashboard{
 	font-size:			50px;
 }
 
-.stockx{
+.logo-stockx{
 	background-image: url("../img/icon/stockXG.png");
 	background-size: contain;
 }
 
-.stockx:hover{
+.logo-stockx:hover{
 	background-image: url("../img/icon/stockXW.png");
 	background-color: #43AB49;
 }
 
-.netflix{
+.logo-netflix{
 	background-image:url("../img/icon/netflixG.png");
 	background-size: contain;
 }
 
-.netflix:hover{
+.logo-netflix:hover{
 	background-image:url("../img/icon/netflixW.png");
 	background-color: #E50914;
 }
