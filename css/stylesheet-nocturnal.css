@@ -160,6 +160,12 @@ td.dashboard{
 	display: block;
 }
 
+.crunchyroll i{
+	height: 120px;
+	width: 120px;
+	display: block;
+}
+
 .stockx:hover{
 	background-color: #43AB49;
 }
@@ -186,10 +192,6 @@ td.dashboard{
 	background-image:url("../img/icon/netflixW.png");
 }
 
-.crunchyroll{
-	background-size: contain;
-}
-
 .crunchyroll:hover{
 	background-color: #E59400;
 	/*background-color: #fc9003; - this is what crunchyroll's hover colour was but like its too similar to amazon's and that bugs me
@@ -198,6 +200,7 @@ td.dashboard{
 
 .logo-crunchyroll{
 	background-image: url("../img/icon/crunchB.png");
+	background-size: contain;
 }
 
 .logo-crunchyroll:hover{
