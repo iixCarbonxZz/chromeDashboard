@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", function(){
     for(let i=0; i< roblox.length; i++){
       roblox[i].addEventListener("mouseenter", function(e){
       roblox[i].classList.add("fa-rotate-by");
-      roblox[i].style.cssText("--fa-rotate-angle: 45deg;");
+      roblox[i].style.cssText += "--fa-rotate-angle: 45deg;";
       });
       roblox[i].addEventListener("mouseleave", function(e){
       roblox[i].classList.add("fa-rotate-by");
-      roblox[i].style.cssText("--fa-rotate-angle: 45deg;");
+      roblox[i].style.cssText += "--fa-rotate-angle: 45deg;";
       });
     };
 });
