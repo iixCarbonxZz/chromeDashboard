@@ -11,4 +11,4 @@ document.addEventListener("DOMContentLoaded", function(){
         buttonLogo[i].classList.remove("fa-beat-fade");
     });
   });
-});
+};
