@@ -29,3 +29,15 @@ function removeRow(){
     document.getElementById("tableMain").deleteRow(-1);
   }
 }
+
+
+//Add CSS Hover Effects
+
+document.addEventListener("DOMContentLoaded"), functiion(){
+  var button = document.querySelector(".dashButton");
+  var buttonLogo = document.querySelector(".dashButton > fab");
+
+  button.addEventListener("mouseenter", function(e){
+      buttonLogo.classList.add("fa-beat-fade");
+  });
+});
