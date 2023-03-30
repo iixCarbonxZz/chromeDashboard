@@ -1,8 +1,8 @@
 //Add CSS Hover Effects
 
 document.addEventListener("DOMContentLoaded", function(){
-  var button = document.querySelector(".dashButton");
-  var buttonLogo = document.querySelector(".dashButton > .fab");
+  var button = document.querySelectorAll(".dashButton");
+  var buttonLogo = document.querySelectorAll(".dashButton > .fab");
 
   button.addEventListener("mouseover", function(e){
       buttonLogo.classList.add("fa-beat-fade");
