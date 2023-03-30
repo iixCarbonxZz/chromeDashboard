@@ -150,24 +150,36 @@ td.dashboard{
 	font-size:			50px;
 }
 
+.stockx i{
+	height: 120px;
+	width: 120px;
+	display: block;
+}
+
+.stockx:hover{
+	background-color: #43AB49;
+}
+
 .logo-stockx{
-	background-image: url("../img/icon/stockXB.png");
+	background-image: url("../img/icon/stockXG.png");
 	background-size: contain;
 }
 
 .logo-stockx:hover{
 	background-image: url("../img/icon/stockXW.png");
-	background-color: #43AB49;
+}
+
+.netflix:hover{
+	background-color: #E50914;
 }
 
 .logo-netflix{
-	background-image:url("../img/icon/netflixB.png");
+	background-image:url("../img/icon/netflixG.png");
 	background-size: contain;
 }
 
 .logo-netflix:hover{
 	background-image:url("../img/icon/netflixW.png");
-	background-color: #E50914;
 }
 
 .crunchyroll{
