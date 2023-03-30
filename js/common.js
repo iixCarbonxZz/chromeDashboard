@@ -10,5 +10,5 @@ document.addEventListener("DOMContentLoaded", function(){
         button[i].addEventListener("mouseleave", function(e){
         buttonLogo[i].classList.remove("fa-beat-fade");
     });
-  }
+  });
 });
