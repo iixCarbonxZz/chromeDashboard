@@ -33,7 +33,7 @@ function removeRow(){
 
 //Add CSS Hover Effects
 
-document.addEventListener("DOMContentLoaded"), functiion(){
+document.addEventListener("DOMContentLoaded"), function(){
   var button = document.querySelector(".dashButton");
   var buttonLogo = document.querySelector(".dashButton > fab");
 
