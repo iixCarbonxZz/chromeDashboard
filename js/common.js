@@ -7,4 +7,4 @@ document.addEventListener("DOMContentLoaded"), function(){
   button.addEventListener("mouseenter", function(e){
       buttonLogo.classList.add("fa-beat-fade");
   });
-});
+};
