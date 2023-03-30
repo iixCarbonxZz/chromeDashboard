@@ -12,13 +12,15 @@ document.addEventListener("DOMContentLoaded", function(){
         button[i].addEventListener("mouseleave", function(e){
         buttonLogo[i].classList.remove("fa-beat-fade");
         });
-        roblox.addEventListener("mouseenter", function(e){
-          roblox.classList.add("fa-rotate-by");
-          roblox.style.cssText("--fa-rotate-angle: 45deg;");
-        });
-        roblox.addEventListener("mouseleave", function(e){
-          roblox.classList.add("fa-rotate-by");
-          roblox.style.cssText("--fa-rotate-angle: 45deg;");
-        });
+    };
+    for(let i=0; i< roblox.length; i++){
+      roblox[i].addEventListener("mouseenter", function(e){
+      roblox[i].classList.add("fa-rotate-by");
+      roblox[i].style.cssText("--fa-rotate-angle: 45deg;");
+      });
+      roblox[i].addEventListener("mouseleave", function(e){
+      roblox[i].classList.add("fa-rotate-by");
+      roblox[i].style.cssText("--fa-rotate-angle: 45deg;");
+      });
     };
 });
