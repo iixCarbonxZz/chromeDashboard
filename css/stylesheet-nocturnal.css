@@ -156,12 +156,18 @@ td.dashboard{
 	display: block;
 }
 
+.netflix i{
+	height: 120px;
+	width: 120px;
+	display: block;
+}
+
 .stockx:hover{
 	background-color: #43AB49;
 }
 
 .logo-stockx{
-	background-image: url("../img/icon/stockXG.png");
+	background-image: url("../img/icon/stockXB.png");
 	background-size: contain;
 }
 
@@ -174,7 +180,7 @@ td.dashboard{
 }
 
 .logo-netflix{
-	background-image:url("../img/icon/netflixG.png");
+	background-image:url("../img/icon/netflixB.png");
 	background-size: contain;
 }
 
