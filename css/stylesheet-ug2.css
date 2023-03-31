@@ -1,0 +1,260 @@
+.color-primary{
+	background-color: #525252;
+}
+
+.color-secondary{background-color: #000000;}
+
+body{
+	transition: background-color 0.25s;
+}
+
+.pageHeader{
+	font-family: 		'Open Sans', sans-serif;
+	font-weight:		bold;
+	font-size:			35px;
+	line-height: 		50px;
+	text-align: center;
+	margin:				10px auto;
+	color: 				#FFFFFF;
+	user-select:		none;
+}
+
+.horizontalLine{
+	height: 3px;
+	width: 35%;
+	margin: auto;
+	/* background-image: 	linear-gradient(to right, #008AE5, #00E48B); */
+	background-color: #d1eb8c;
+}
+
+.wrapper{
+	width: 				35%;
+	height: 			auto;
+	border: 			2px solid 	#0D1015;
+	border-radius: 		10px;
+	margin: 			auto;
+}
+
+ul{
+	list-style: 		none;
+	padding:			0px;
+	margin:				10px;
+}
+
+.liWrap{
+	height: 			30px;
+	width: 				98%;
+	margin: 			10px auto;
+	background-color:	#181C25;
+	border-radius:		5px;
+	padding: 			5px;
+}
+
+.liWrap:hover{
+	background-image: 	linear-gradient(to right, #008AE5, #00E48B);
+	cursor:				pointer;
+}
+
+.liWrap:hover  li:before{
+	visibility:			hidden;
+}
+
+.bodyText{
+	font-family:		'Open Sans', sans-serif;
+	font-size: 			20px;
+	line-height: 		30px;
+	color:				#FFFFFF;
+}
+
+.bodyText li:before{
+	display:			inline-block;
+	content:			'';
+	background-image: 	linear-gradient(to right, #008AE5, #00E48B);
+	height: 			10px;
+	width: 				10px;
+	border-radius: 		100%;
+	line-height:		30px;
+	margin-right:		5px;
+	margin-bottom:		2px;
+}
+
+a{
+	text-decoration: 	none;
+	color: 				#FFFFFF;
+	user-select:		none;
+}
+
+a:visited{
+	color:				#FFFFFF;
+}
+
+/*
+Dashboard Table Content
+*/
+
+.dashWrapper{
+	width: fit-content;
+	height:auto;
+	border: 2px solid #0D1015;
+	border-radius: 10px;
+	margin: auto;
+	transition: background-color 0.25s, border 0.25s;
+}
+
+table.dashboard{
+	table-layout:		fixed;
+	margin:				auto;
+	padding:			5px;
+}
+
+tr.dashboard{
+	width: 				100%;
+}
+
+td.dashboard{
+	height:				130px;
+	width: 				120px;
+}
+
+.dashButton{
+	height: 			120px;
+	width: 				120px;
+	margin: 5px;
+	color: #FFFFFF;
+	border-radius:		5px;
+	transition: background-color 0.25s, color 0.25s, background-image 0.25s;
+}
+
+.dashButton:hover{
+	cursor:				pointer;
+	color:				#FFFFFF;
+	background-color: #262626;
+	border: 5px solid #d1eb8c;
+	margin: 0;
+}
+
+.dashButton i{
+	font-size: 			60px;
+	line-height:		120px;
+	width: 				120px;
+	text-align: 		center;
+}
+
+.roblox-background-element{
+	margin-top:			-120px;
+	color: #525252;
+	transition: color 0.25s;
+}
+
+.roblox i{
+	font-size:			50px;
+}
+
+.stockx i{
+	height: 120px;
+	width: 120px;
+	display: block;
+}
+
+.netflix i{
+	height: 120px;
+	width: 120px;
+	display: block;
+}
+
+.crunchyroll i{
+	height: 120px;
+	width: 120px;
+	display: block;
+}
+
+
+.logo-stockx{
+	background-image: url("../img/icon/stockXW.png");
+	background-size: contain;
+}
+
+.logo-stockx:hover{
+	background-image: url("../img/icon/stockXW.png");
+}
+
+
+.logo-netflix{
+	background-image: url("../img/icon/netflixW.png");
+	background-size: contain;
+}
+
+.logo-netflix:hover{
+	background-image:url("../img/icon/netflixW.png");
+}
+
+
+.logo-crunchyroll{
+	background-image: url("../img/icon/crunchW.png");
+	background-size: contain;
+}
+
+.logo-crunchyroll:hover{
+	background-image: url("../img/icon/crunchW.png");
+}
+
+/*
+COLORS
+*/
+
+
+
+
+/*
+ADD ROW button
+*/
+.addRow{
+	right:				130px;
+	bottom:				0px;
+	border-radius:	5px 5px 0px 0px;
+}
+
+/*
+REMOVE ROW button
+*/
+.deleteRow{
+	right:				260px;
+	bottom:				0px;
+	border-radius:	5px 5px 0px 0px;
+}
+
+/*
+DARK MODE BUTTON
+*/
+.DMbutton{
+	right:				0px;
+	bottom:				0px;
+		border-radius:	5px 0px 0px 0px;
+}
+/*
+GENERAL BUTTON CSS
+*/
+.button{
+	width: 				125px;
+	height: 			30px;
+	line-height: 		30px;
+	border: 			1px solid #0D1015;
+	background-color: 	#12151C;
+	border-radius:		5px 0px 0px 0px;
+	text-align:			center;
+	position:			fixed;
+}
+
+.button:hover{
+	cursor:				pointer;
+	background-color: 	#181C25;
+}
+
+.button .label{
+	font-family: 		'Open Sans', sans-serif;
+	font-weight:		bold;
+	font-size:			12px;
+	line-height: 		30px;
+	color: 				#FFFFFF;
+	user-select:		none;
+}
